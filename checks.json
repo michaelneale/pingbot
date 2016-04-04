@@ -2,17 +2,17 @@
 
 
   {
-    "check": "http://gitlab.squarecloud.net.au/",
+    "check": "http://foo.com/",
     "api_key": "1234",
     "tags": [
-      "gitlab.squarecloud.net.au"
+      "foo"
     ]
   },
   {
-    "check": "https://dev.housenexus.com.au/",
+    "check": "https://bar.com/",
     "api_key": "1234",
     "tags": [
-      "dev.housenexus.com.au"
+      "bar baz"
     ]
   }
 
