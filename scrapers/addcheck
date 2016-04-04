@@ -1,0 +1,6 @@
+curl --data '{
+  "url": "http://130.211.134.49:7070/http://www.traviscistatus.com/metrics-display/9qbjll1hqc0z/day.json",
+  "tags": [
+    "vimeo"
+  ]
+}' -u 8b1c905c4ccc93770f7380266df54efc: http://radalert.io/api/v1/checks

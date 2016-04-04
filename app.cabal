@@ -1,0 +1,31 @@
+name:           app
+version:        0.1
+cabal-version:  >=1.10
+build-type:     Simple
+author:         me
+
+executable app
+  build-depends:
+                   base >= 4,
+                   HTTP,
+                   async,
+                   http-conduit,
+                   http-types,
+                   conduit,
+                   bytestring,
+                   transformers,
+                   random,
+                   aeson,
+                   text,
+                   regex-posix,
+                   unordered-containers,
+                   time,
+                   network-uri,
+                   base64-bytestring,
+                   case-insensitive, 
+                   connection
+
+  hs-source-dirs:  src
+  ghc-options:     -Wall -rtsopts -threaded
+  default-language: Haskell2010
+  main-is:         Main.hs  

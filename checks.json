@@ -1,0 +1,23 @@
+[
+
+
+  {
+    "check": "http://gitlab.squarecloud.net.au/",
+    "api_key": "1234",
+    "tags": [
+      "gitlab.squarecloud.net.au"
+    ]
+  },
+  {
+    "check": "https://dev.housenexus.com.au/",
+    "api_key": "1234",
+    "tags": [
+      "dev.housenexus.com.au"
+    ]
+  }
+
+  
+  
+  
+  
+]
