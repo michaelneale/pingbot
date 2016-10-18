@@ -4,6 +4,8 @@ The pingbot takes a checks.json (see example one) and then regularly heartbeats 
 
 Rad.
 
+NOTE: that cabal file will take some lovin. I really wasn't into freezing deps or buying into semver at this point in my life. Oh well. 
+
 # Usage
 
 To use: ```export HEART_URL=http://requestb.in/15ejt921" && ./pinger```.
