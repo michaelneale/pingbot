@@ -1,5 +1,7 @@
 # Pinger bot for radalert
 
+[![Git](https://app.soluble.cloud/api/v1/public/badges/f928d07e-c82f-4728-8225-152b8cf98860.svg?orgId=451115019187)](https://app.soluble.cloud/repos/details/github.com/michaelneale/pingbot?orgId=451115019187)  
+
 The pingbot takes a checks.json (see example one) and then regularly heartbeats a status to HEART_URL. By default it will check about each minute, and allow about 10 seconds for a response. There are a few modes of checking - the default will just issue a HEAD request (efficient on the site as no content needs to be transferred).
 
 Rad.
